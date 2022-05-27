@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main_right {
+    width: 45%;
+    height: 100vh;
+    padding-left: 8rem;
+    margin-right: 4rem;
+    /* background-color: black; */
+}
+
+.category {
+    background: rgba(255, 234, 0, 0.06);
+    border-radius: 10px;
+    width: 30rem;
+    height: 14rem;
+    margin-top: 0.5rem;
+
+}
+.category .search_box{
+    position: relative;
+    padding: 10px;
+    background: #FDFDFD;
+    border: 0.5px solid #A5B0C2;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.17);
+    border-radius: 10px;
+    margin-top: 1rem;
+    float: right;
+}
+.category .fa-search{
+    position: relative;
+    margin-left: -2rem;
+    font-size: 1.1rem;
+}
+
+
+/*  ##################### Categories ##################### */
+.uncategies {
+    display: flex;
+    flex-direction: row;
+    padding-top: 3.5rem;
+    line-height: 1rem;
+}
+.uncategies i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.phone,
+.shoes{
+    display: flex;
+    flex-direction: row;
+    line-height: 3.5rem;
+    
+}
+.fa-plus-square-o,
+.minus {
+
+    margin: 1rem 1rem 0 2rem;
+    font-size: 1.5rem;
+}
