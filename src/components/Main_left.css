@@ -98,3 +98,43 @@
         height: 100vh;
     }
 } */
+
+
+/*  ################ check box styling #################  */
+.quality_check {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.check {
+    height: 1rem;
+    width: 1.6rem;
+    appearance: none;
+    background: #01CC99;
+    outline: none;
+    border-radius: 20px;
+    /* transition: 0.5s; */
+    position: relative;
+    margin: 1.8rem 0 0 1rem;
+}
+input:checked[type="checkbox"]
+{
+    background: #01CC99;
+}
+
+.check::before {
+    content: '';
+    position: absolute;
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    top:0.1rem;
+    left: 0;
+    transition: 0.5s;
+    transform: scale(0.9);
+    background: #fff;
+}
+.check:checked::before {
+    left: 0.8rem;
+}

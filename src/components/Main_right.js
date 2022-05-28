@@ -6,7 +6,13 @@ const Main_right = () => {
   return (
     <>
         <section className="main_right">
-            <p className="form_heading tracking">Show In Store</p>
+            {/* <p className="form_heading tracking">Show In Store</p> */}
+            <div className="quality_check">
+                <p className="form_heading tracking">Show In Store</p>
+                <div className="center">
+                    <input type="checkbox" name = "" className="check"/>
+                </div>
+            </div>
             <p className="descp">The product will be available on your store, when enabled.</p>
             <p className="form_heading tracking">Categories</p>
             <p className="descp">Choose a category for your product.</p>
@@ -28,12 +34,25 @@ const Main_right = () => {
                 </div>
             </div>
             <Input title="Brand" placeholder="Enter Brand" descp="" />
-            <p className="form_heading tracking">
+            {/* <p className="form_heading tracking">
                     Qualifies for return
-            </p>
-            <p className="form_heading tracking">
+            </p> */}
+            <div className="quality_check">
+                <p className="form_heading tracking">Qualifies for return</p>
+                <div className="center">
+                    <input type="checkbox" name = "" className="check"/>
+                </div>
+            </div>
+            {/* <p className="form_heading tracking">
                     On Sale
-            </p>
+            </p> */}
+            <div className="quality_check">
+                <p className="form_heading tracking">On Sale</p>
+                <div className="center">
+                    <input type="checkbox" name = "" className="check"/>
+                </div>
+            </div>
+
             <Input title="Dimensional Weight" placeholder="Enter Dimentional Weight" descp="" />
             <Input title="Width" placeholder="Enter Width" descp="" />
             <Input title="Height" placeholder="Enter Height" descp="" />

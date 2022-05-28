@@ -35,9 +35,14 @@ const Main_left = () => {
                     <p>You cannot enable/disable inventory tracking once you have created transactions for this product.</p>
                 </div>
                 <Input title="Quantity" placeholder="Enter Quantity" descp="" />
+                <div className="quality_check">
                 <p className="form_heading tracking">
                     Quantity Restriction
                 </p>
+                <div className="center">
+                    <input type="checkbox" name = "" className="check"/>
+                </div>
+                </div>
                 <p className="descp">Specify the quantities to restrict purchase</p>
                 <div className="max_min_quantity">
                     <Input title="Min" placeholder="Minimum Quantity" descp="" />
