@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
         <div className="navbar">
             {/* <h3>Logo</h3> */}
-            <img src={Logo} alt="Logo" className="logo"/>
+            <img src={Logo} alt="Logo" className="logo" />
             <div className="nav">
                 <div className="search">
                     <div className="product">
